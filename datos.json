@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "precio": 32000,
+            "descripcion": "BRIDGESTONE-POTENZA-RE050A-RFT",
+            "medida": "225/65/17"
+        },
+        {
+            "id": 2,
+            "precio": 33000,
+            "descripcion": "BRIDGESTONE-TURANZA-T001",
+            "medida": "225/70/15"
+        },
+        {
+            "id": 3,
+            "precio": 31000,
+            "descripcion": "DUNLOP-DIREZZA-DZ102",
+            "medida": "265/10/16"
+        },
+        {
+            "id": 4,
+            "precio": 36000,
+            "descripcion": "DUNLOP-DIREZZA-Z3_265-35R18",
+            "medida": "195/70/15"
+        },
+        {
+            "id": 5,
+            "precio": 42000,
+            "descripcion": "MICHELIN-AGILIS3",
+            "medida": "205/65/16"
+        },
+        {
+            "id": 6,
+            "precio": 34000,
+            "descripcion": "MICHELIN-LATITUDECROSS",
+            "medida": "225/70/17"
+        }
+    ]
+}

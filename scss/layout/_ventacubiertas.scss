@@ -1,0 +1,92 @@
+#mainVentaCubiertas{
+    .tituloYcarrito{
+        position: sticky;
+        width: 100%;
+        background-color: $tipografiaClara;
+        min-height: 70px;
+        top: 71px;
+        .titulo{
+            padding: 10px;
+            h3{
+                margin-bottom: 0;
+            }
+        }
+        .carrito{
+            padding: 10px;
+            background-color: $tipografiaClara;
+            border-bottom: 1px solid gray;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            a{
+                text-decoration: none;
+                color:rgb(255, 24, 24);
+            }
+            span{
+                color: rgb(96, 213, 67);
+            }
+        }
+    }
+    .pedidoDatos{
+        margin-bottom: 10px;
+        .comprador{
+            text-align: center;
+            input{
+            font-size: 1.3rem;
+            display: block;
+            min-width: 420px;
+            margin: 15px auto;
+            padding: 3px 8px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fff292;
+            }
+            .btnContinuarCompra{
+                transition: all .7s;
+                &:hover{
+                    background-color: $amarilloDunlop;
+                }
+            }
+            .alertaCompra{
+                color: red;
+            }
+        }
+    }
+    .grillaWrapper{
+        opacity: 0;
+        transition: opacity .7s;
+        .grillaProductos{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+            .cajaProducto{
+                box-shadow: 2px 2px 8px rgb(60, 60, 60);
+                margin: 20px auto;
+                text-align: center;
+                max-width: 350px;
+                border-radius: 5px;
+                .imgProducto{
+                    width: 70%;
+                }
+                .precioCubierta{
+                    font-size: 1.5rem;
+                }
+                .descripcionCubierta{
+                    background-color: rgb(227, 227, 227);
+                    padding: 10px 0px;
+                }
+                .btnAgregarProducto{
+                    border: none;
+                    border-radius: 5px;
+                    padding: 7px;
+                    width: 110px;
+                    background-color: $amarilloDunlop;
+                    margin-bottom: 25px;
+                    color: $negroFondo;
+                    transition: background-color .5s;
+                    &:hover{
+                        background-color: rgb(239, 239, 0);
+                    }
+                }
+            }
+        }
+    }
+}
